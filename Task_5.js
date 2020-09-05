@@ -1,8 +1,3 @@
-class Replacer {
-  constructor(string) {
-    this.text = string;
-  }
-  spaceReplacer() {
-    return this.text.split(" ").join("%20");
-  }
-}
+const spaceReplacer = (str) => {
+  return str.split(" ").join("%20");
+};

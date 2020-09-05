@@ -1,4 +1,4 @@
-const threeOccurence = (number) => {
+const occurence = (number) => {
   // intialize an array to contain the 3s array
   let numbers = [];
   // use loop to get numbers between 0 - number using the index
@@ -12,3 +12,5 @@ const threeOccurence = (number) => {
   // returning numbers array length for the count and the number array
   return { count: numbers.length, numbers };
 };
+
+console.log(occurence(40));
